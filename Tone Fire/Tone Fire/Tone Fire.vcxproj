@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\FmodImplementation.h" />
+    <ClInclude Include="..\include\ToneFire.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\FmodImplementation.cpp" />
+    <ClCompile Include="..\src\ToneFire.cpp" />
     <ClCompile Include="..\src\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
