@@ -1,0 +1,132 @@
+{f6b926bb-17f4-4a11-ae33-c1a7ab727e40} bank:/Assault
+{51b92f4a-b7de-4d00-b600-e09fb8a354d4} bank:/Commando
+{f4ccbb5b-af40-46bb-a572-71225016c418} bank:/Demolitionist
+{1c390846-9014-4a95-ba5a-1675057f2eca} bank:/Effects
+{9e86bdcd-997b-4b59-824b-93690f25c9c3} bank:/Ghoul
+{af5a08fc-baa8-401e-9b0b-d090a6e9beae} bank:/Guns
+{fcc86dd7-a8df-4dc0-b4ab-1c2363a94ec6} bank:/Master
+{64d54d03-d9a4-0182-32e2-96dd925a485e} bank:/Master.strings
+{a5ed0dd5-37a2-45a9-9c5c-17096380cdc7} bank:/Music
+{7eefeadf-b393-4503-977b-ef3ecac0d533} bank:/Raider
+{a01b2a17-0aef-4f6a-9457-5220991e9af8} bank:/Robo Gunner
+{bff73461-eeb3-4384-a898-ced4a12c56bf} bank:/Scout
+{a4509092-8c3e-4d9d-81f5-703de6b2605a} bank:/Sentry
+{34c5df19-b8ec-4404-a64a-22f47e9c287a} bank:/Shop
+{f32fe06f-cd4d-42f7-a5c0-4c2c1da6b3b4} bus:/
+{14c2d974-f793-4fae-a338-e0e2c59f7d79} bus:/Reverb
+{d979cdd7-d2d6-417b-af7a-fa7fa04f4ca0} event:/Assault/00 seeing enemy
+{e3fcfe97-6788-4377-8b3f-6f762487af74} event:/Assault/01 killing enemy
+{453b2147-b94a-4d7a-8561-7203e8960e38} event:/Assault/02 seeing boss
+{f83905d6-6b92-40a2-b1b9-7da9f3b54469} event:/Assault/03 killing boss
+{6e918a88-bf62-4bd1-a64f-4aec545217ed} event:/Assault/04 seeing health
+{a1e9a8ee-393e-4290-a81e-50fc51a3949e} event:/Assault/05 collect health
+{88d6521d-328a-4c03-bb3e-42dc3061d8a8} event:/Assault/06 seeing ammo
+{ed84753b-e035-4643-95bd-20da3f24254a} event:/Assault/07 collect ammo
+{a9dbc034-2e3a-4375-896a-2dc5f08ceadd} event:/Assault/08 seeing sednium
+{244a40f4-0bcc-440b-a643-35787f0fd97d} event:/Assault/09 collect sednium
+{7a779d12-4e48-45c3-8a24-5585a8ae5a1a} event:/Assault/10 getting hit
+{e09d8d52-7341-490d-b697-6095e6917012} event:/Assault/11 getting killed
+{c37851f1-9979-46d1-bf37-741ca9df8ef6} event:/Assault/12 secret
+{309c7cc7-791c-48c5-9af5-cae12aef3e17} event:/Assault/13 chest
+{02379e8d-fad0-4fe9-b5c3-e53e27534f4e} event:/Assault/14 boss new phase
+{8eed76dd-b16a-439e-bc58-24ff6722bd4b} event:/Assault/15 clear
+{10e82eed-b0cd-443c-ab3d-56317d7736b4} event:/Assault/16 low health
+{73c432f8-4ce7-4c91-a88a-26a6b887457d} event:/Assault/17 low ammo
+{f925802b-e40c-4df6-af1b-f09937da9752} event:/Commando/00 seeing enemy
+{e3101099-40f0-4bf9-b4c8-8d3777b4ee86} event:/Commando/01 killing enemy
+{52f5ebde-c0ff-416a-978a-6aaeac6d3d96} event:/Commando/02 seeing boss
+{7fce5a2d-595c-4958-a829-de8735d0d54e} event:/Commando/03 killing boss
+{640f1da2-2ffe-406b-b9f5-d110b45c64d9} event:/Commando/04 seeing health
+{f8ec2b8d-e026-4fd0-b418-bea63079cb59} event:/Commando/05 collect health
+{a226ede7-204f-43e7-ab03-d2b4cf7177bb} event:/Commando/06 seeing ammo
+{91389cc6-5523-4805-aea6-be0f32ede7e7} event:/Commando/07 collect ammo
+{cf14df37-a1c0-423c-9ea1-2587748a5f09} event:/Commando/08 seeing sednium
+{9f4a4b25-76a9-47ec-88c0-bbee3ebe667b} event:/Commando/09 collect sednium
+{d8244b35-66ed-4993-8dea-dc2b1c7a5a6e} event:/Commando/10 getting hit
+{2d984d79-9ba8-4b50-acb7-dc099c33e047} event:/Commando/11 getting killed
+{e67cd013-4673-4d82-9b66-77f3871507f3} event:/Commando/12 secret
+{2f05901f-df29-47d7-8564-6bdb93fab379} event:/Commando/13 chest
+{1ad530ed-a2eb-4007-8b63-d16deddb4f43} event:/Commando/14 boss new phase
+{13d6a4b5-1cf2-41c4-8a27-24ebdcbccf8c} event:/Commando/15 clear
+{e1214ec6-c6c3-4c2a-b1e4-83320be9179e} event:/Commando/16 low health
+{7dfb2c9d-e9ec-4da5-a87e-a331a98a5b69} event:/Commando/17 low ammo
+{a8aea502-b263-4332-866a-93603120ca17} event:/Demolitionist/00 seeing enemy
+{355d109a-a93b-4ee9-9c35-3862e83ff658} event:/Demolitionist/01 killing enemy
+{d514af8f-e109-4884-ab6c-7b54b9f820d5} event:/Demolitionist/02 seeing boss
+{090188c3-8fcc-4e71-80f5-9dba5d833674} event:/Demolitionist/03 killing boss
+{65d1aa54-01f1-4d5d-8331-9585b4728216} event:/Demolitionist/04 seeing health
+{a9728512-6714-4dc4-b3d2-b86c60c22c32} event:/Demolitionist/05 collect health
+{e1c2c589-4fe1-436c-b2a7-07911743321a} event:/Demolitionist/06 seeing ammo
+{02a460d2-0d02-49ee-9097-db1398a5db54} event:/Demolitionist/07 collect ammo
+{c2fd18f6-9815-4d40-8e5f-e10c3f87ca9a} event:/Demolitionist/08 seeing sednium
+{0c989155-0584-4dfb-a439-15be9acb2fa5} event:/Demolitionist/09 collect sednium
+{e4fd2c72-b126-47cf-80bd-4c80bbf64317} event:/Demolitionist/10 getting hit
+{6581edec-15a4-41e3-8c60-aca9f0d26264} event:/Demolitionist/11 getting killed
+{e9e71294-e2e6-4161-99e8-1e79a097f8c0} event:/Demolitionist/12 secret
+{cf7f21d1-95c5-4f5f-8858-02989f021840} event:/Demolitionist/13 chest
+{fbdeb194-17d2-45da-8bf5-47ef1c1d81b6} event:/Demolitionist/14 boss new phase
+{11823bda-0d7b-45ad-96f5-11cb54d44162} event:/Demolitionist/15 clear
+{65ed5944-d205-4067-9fc2-b36f64bbb659} event:/Demolitionist/16 low health
+{5a433ce2-191a-4491-ba0f-9323d9847fb8} event:/Demolitionist/17 low ammo
+{997eebf4-47e4-48f0-a9bf-5a656812a9c9} event:/Effects/AirlockDoor
+{004aee18-cae8-4ff0-aae1-fa6bec64bbff} event:/Effects/Footsteps
+{5adb33ea-db2d-487a-a421-564d6a1a7006} event:/Effects/Jump-Pad
+{b6b5b988-d8dc-4db2-84c4-58c20b2162a9} event:/Effects/Low Health
+{879f64c5-58a1-47f2-9bcd-ebd95194564a} event:/Effects/Pickup
+{246998ed-5b2b-419f-b3e5-52b7457a9705} event:/Effects/Shield Recharge
+{62b28e61-b69a-4d46-8355-832f6a2b610a} event:/Effects/Teleport
+{b9bb8edd-bd2a-4fcc-9c72-4b22bc987964} event:/Effects/uiClick
+{f8d131f9-575b-4307-9737-00f0ccb21ea8} event:/Effects/uiSadClick
+{38300664-0c7e-4705-8f0d-d6caeb227a1e} event:/Ghoul/22 spotted
+{74992a56-0258-409b-a02f-3155326745c4} event:/Ghoul/23 hurt
+{623bbdb1-d144-4120-89d7-fa2cc344399c} event:/Ghoul/24 player death
+{efefab3a-a54b-49de-b6e2-445a916c7846} event:/Ghoul/25 death
+{74fbacc6-eee4-463b-b767-72ad49b42cd2} event:/Guns/AutoRifle
+{063d9089-738a-408b-a07b-5e2ec02bc642} event:/Guns/GhoulSwipe
+{7096fc0b-f4d0-43d5-b36e-04d463ae8ca4} event:/Guns/GrenadeLauncherExplosivo
+{ea07f62c-a53f-4d78-8bc6-121908f2fd3b} event:/Guns/GrenadeLauncherThump
+{5aa3c18f-6f29-4a6e-a8bc-8f6686cf9b7a} event:/Guns/MarksmanRifle
+{0018de61-675e-4246-ab15-30e8db4a0e63} event:/Guns/OutOfAmmo
+{19eb997d-66e3-4184-8471-262d9599921f} event:/Guns/Pistol
+{00257b49-c9b5-4d85-9aa2-c96883548b76} event:/Guns/Robot
+{cc7d4b16-da09-4509-8ff6-0de19ab4b3bb} event:/Guns/Shotgun
+{e03d954f-76d3-4fb2-9bc3-28fa5323070a} event:/Music/Ancient
+{02c4770d-7f2c-4586-b83a-4d897df9dfba} event:/Music/Derelict
+{e74f9dce-7e80-4bc8-8de9-3f42ed91f857} event:/Music/Unyielding
+{f0b53f77-f438-4b38-b4bd-01eebb76c0db} event:/Raider/22 spotted
+{4c83d16e-a4f9-4c29-983c-fe5c829b69ef} event:/Raider/23 hurt
+{1d6105d1-c319-4985-9700-cac8d4188b9b} event:/Raider/24 player death
+{8e58ede5-7351-462c-b133-893ce4703728} event:/Raider/25 death
+{03ea1b4d-4325-42b2-91fb-edebebaa68b1} event:/Robo Gunner/22 spotted
+{6cf37914-8b15-4891-b786-0aa055b0fb1a} event:/Robo Gunner/23 hurt
+{f02e2f3c-58b0-4124-bc80-63a325f33afa} event:/Robo Gunner/24 player death
+{d2c55349-939d-4e3c-b232-004629786eaf} event:/Robo Gunner/25 death
+{c130b293-ae57-4022-87a7-91d5d9e6ba6f} event:/Scout/00 seeing enemy
+{978a80f4-6945-4beb-a816-1352902e11ad} event:/Scout/01 killing enemy
+{d855b1d0-7279-4729-9a67-c404c49d17c1} event:/Scout/02 seeing boss
+{6a758b1e-30b5-4dcc-bf94-b84c7fdc9c52} event:/Scout/03 killing boss
+{3661a975-25a1-4fe6-a75e-b85838eca1fc} event:/Scout/04 seeing health
+{2b62232d-2d5f-4cf6-a880-b42ff1eb996e} event:/Scout/05 collect health
+{b180fe80-90d3-4c20-9779-cecbb3672e43} event:/Scout/06 seeing ammo
+{ad073a82-6c8a-4042-b0b2-dc6e0dfb54ab} event:/Scout/07 collect ammo
+{42d23885-3dce-421b-9703-e44739ed896e} event:/Scout/08 seeing sednium
+{310d2573-5569-4547-8535-00d429c901e8} event:/Scout/09 collect sednium
+{675d96e9-7337-454d-a2e8-59c97ff3a369} event:/Scout/10 getting hit
+{6b9e449d-4ed0-457d-b367-10d4c4e2ed22} event:/Scout/11 getting killed
+{5109c5ed-d853-487b-b3b4-d14f83163c1e} event:/Scout/12 secret
+{89cf83b5-df97-45da-9aa9-d1504d30d5b1} event:/Scout/13 chest
+{d800a8dd-4d74-4331-b423-8294ef4a39e1} event:/Scout/14 boss new phase
+{8e7591fb-4d50-4eae-beda-1ee054cca521} event:/Scout/15 clear
+{15c0070a-3d59-4505-a458-5914e7a0c1e4} event:/Scout/16 low health
+{c10f08f0-b3de-4872-a521-651433988fca} event:/Scout/17 low ammo
+{4ad39f03-49c2-430a-a888-bef3e10bfac5} event:/Sentry/22 spotted
+{f981ad2e-44ab-45cc-9a09-38907374a5ea} event:/Sentry/23 hurt
+{58c7dece-9de6-4819-ab80-0d444f171e4b} event:/Sentry/24 player death
+{37c7cab0-1196-4c78-b3bb-197f236c51eb} event:/Sentry/25 death
+{12e6462b-2cc3-4269-83b4-0bc0b3f31a24} event:/Shop/18 greeting
+{d7cac3b8-a9e3-45f1-a0ea-ddeb4da1ed7d} event:/Shop/19 success
+{6367c397-a375-4069-9441-8c6df6e572d7} event:/Shop/20 declined
+{b1f00128-1518-4d9c-bf10-9459295accea} event:/Shop/21 farewell
+{7e2b4805-6a5d-4b86-a11b-09ed1a2a9beb} event:/Shop/22 pain
+{e1fc2017-de4a-4dd2-98e1-f611fc1d6bba} parameter:/inCombat
+{1ee52f1b-51f8-45f1-8440-6a98559cb7d0} parameter:/levelClear
