@@ -1,2 +1,42 @@
-# Tone-Fire
-A wrapper for FMOD Core, and soon to be FMOD Studio
+# Tone Fire
+A Wrapper for both FMOD Core and FMOD Studio API, which makes it much easier to use.
+
+## Some Info
+An example of how to use the FMOD Core Implementation:
+```cpp
+int main(){
+	ToneFire::FMODCore core;
+	ToneFire::CoreSound _sound{ "test.mp3",true,true,false };
+	_sound.Play();
+
+    //Game Loop
+	while (true) {
+		core.Update();
+	}
+    return 0;
+}
+```
+An example of how to use the FMOD Studio Implementation:
+```cpp
+int main(){
+    ToneFire::FMODStudio studio;
+
+	studio.LoadBank("Master.bank");
+	studio.LoadBank("Master.strings.bank");
+	studio.LoadBank("Ghoul.bank");
+
+	ToneFire::StudioSound test;
+	test.LoadEvent("event:/Ghoul/23 hurt");
+	test.LoadEvent("event:/Ghoul/22 spotted");
+	test.SetEventPosition("event:/Ghoul/23 hurt", FMOD_VECTOR{ 0.0f, 0.0f, 15.0f });
+	test.PlayEvent("event:/Ghoul/23 hurt");
+
+    //Game Loop
+	while (true) {
+		studio.Update();
+	}
+	return 0;
+}
+```
+## Extra Info
+Make sure to call Play on FMOD Core Sounds before attempting to edit the channel (eg. change position, volume), and also make sure you load all of the banks into the FMOD Studio implementation before you make any Studio Sounds. Lastly, since you will be using FMOD you need to comply to their license terms as well, one of which is to include their logo in the application you're making. Heres a link: https://www.fmod.com/download
