@@ -40,3 +40,5 @@ int main(){
 ```
 ## Extra Info
 Make sure to call Play on FMOD Core Sounds before attempting to edit the channel (eg. change position, volume), and also make sure you load all of the banks into the FMOD Studio implementation before you make any Studio Sounds. Lastly, since you will be using FMOD you need to comply to their license terms as well, one of which is to include their logo in the application you're making. Heres a link: https://www.fmod.com/download
+
+Finally, don't have a Core and a Studio instance at the same time. FMOD Studio's underlying systems create a core system, and this could really mess with the backend.
