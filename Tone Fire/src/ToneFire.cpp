@@ -223,7 +223,7 @@ ToneFire::Listener::Listener(FMOD_VECTOR pos, FMOD_VECTOR up, FMOD_VECTOR forwar
 {
 }
 
-FMOD_VECTOR ToneFire::Listener::GetPosition()
+FMOD_VECTOR& ToneFire::Listener::GetPosition()
 {
 	return _position;
 }
@@ -333,6 +333,8 @@ void ToneFire::StudioSound::SetEventParameter(const std::string& eventName, cons
 
 void ToneFire::StudioSound::SetEventPosition(const std::string& eventName,const FMOD_VECTOR& pos)
 {
+	if (_bankEventDescriptions[eventName] == nullptr)
+		LoadEvent(eventName);
 	FMOD_3D_ATTRIBUTES atr;
 	atr.forward =	forward;
 	atr.position =	pos;
