@@ -6,8 +6,10 @@ using namespace ToneFire;
 ToneFire::FMODCore::FMODCore(int maxChannels, const std::string& defaultPath, const Listener& listener)
 	:_defaultPath(defaultPath), _listener(listener)
 {
+	//create and initialize the fmod system
 	FMOD_RESULT result = FMOD::System_Create(&_fmodSystem);
 	_ErrorCheck(result, "Creating FMOD system");
+
 	_fmodSystem->setSoftwareFormat(48000, FMOD_SPEAKERMODE::FMOD_SPEAKERMODE_STEREO, 0);
 	result = _fmodSystem->init(maxChannels, FMOD_INIT_NORMAL, 0);
 
@@ -34,6 +36,7 @@ FMOD::Sound* ToneFire::FMODCore::_CreateSound(std::string fileName, int flags)
 {
 	FMOD::Sound* temp = NULL;
 	
+	//determine if this is a local or remote asset, kinda broken tbh
 	std::string path = "http";
 	std::size_t found = fileName.find(path);
 	if (found != std::string::npos)
@@ -41,6 +44,7 @@ FMOD::Sound* ToneFire::FMODCore::_CreateSound(std::string fileName, int flags)
 	else
 		path = _defaultPath + fileName;
 
+	//create the sound
 	FMOD_RESULT result = _fmodSystem->createSound((path).c_str(), flags, 0, &temp);
 	_ErrorCheck(result, "Creating Sound: " + fileName);
 
@@ -93,9 +97,9 @@ bool ToneFire::FMODCore::_IsChannelPlaying(FMOD::Channel* c)
 		return false;
 
 	FMOD_RESULT result = c->isPlaying(&playing);
+	_ErrorCheck(result, "Checking if channel playing");
 	if (result == FMOD_ERR_INVALID_HANDLE)
 		return false;
-	_ErrorCheck(result, "Checking if channel playing");
 
 	return playing;
 }
